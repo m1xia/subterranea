@@ -52,7 +52,7 @@ function setup(){
  poster1 = loadImage ("imagenes/poster1.png");
  poster2 = loadImage ("imagenes/poster2.png");
  fondo = loadImage ("imagenes/fondo.jpg");
- tren = loadImage ("imagenes/tren.gif");
+ tren = loadImage ("https://giphy.com/embed/fW6yzJe1ZM5bi");
  hueso = loadImage ("imagenes/hueso.png");
  auto = loadImage ("imagenes/auto.gif");
  star = loadImage ("imagenes/star.gif");
