@@ -171,6 +171,12 @@ if(mouseX < 690 && mouseY < 740){
   }
 }
 
+function mousePressed() {
+  if (mouseX > 380 && mouseX < 570 && mouseY > 0 && mouseY < 304) {
+    mostrarAnimacion = true; 
+  }
+}
+
 /*image (poster1, 380,0, 190, 304);
 rect (380,0, 190, 304);
 if(mouseX < 570 && mouseY < 304){
