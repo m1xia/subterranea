@@ -74,7 +74,7 @@ textFont('Rubik Glitch');
 
 
 a = createA('https://www.instagram.com/fr.xia_/', 'MILEXIA');
-a.position(700, 450);
+a.position(500, 550);
 a.style('font-size', '22px');
 a.style('color', 'red');
 
@@ -182,14 +182,14 @@ image (undercity, 650, 160, 480, 300);
 				}
 }}
 
-image (poster2, 1270,250, 190, 304);
-rect (1270,250, 190, 304);
-if(mouseX < 1460 && mouseY < 554){
-  if (mouseX>1270 && mouseY > 250){
-     image (poster2, 1270,250, 190, 304);
+image (poster2, 970,350, 190, 304);
+rect (970,350, 190, 304);
+if(mouseX < 1160 && mouseY < 654){
+  if (mouseX>970 && mouseY > 350){
+     image (poster2, 970,350, 190, 304);
 
 if (mouseIsPressed) {
-     image (verde, 1270,250, 190, 304);
+     image (verde, 970,350, 190, 304);
 }
 }}
 
@@ -208,15 +208,15 @@ if(mouseX < 1120 && mouseY < 760){
 
 
 
-image (nova1, 1290, 0, 350, 170);
+image (nova1, 990, 100, 350, 170);
 noFill();
-rect (1290, 0, 350, 170);
-if(mouseX < 1640 && mouseY < 170){
-  if (mouseX>1290 && mouseY > 0){
-    image (nova2, 1290, 0, 350, 170);
+rect (990, 100, 350, 170);
+if(mouseX < 1340 && mouseY < 270){
+  if (mouseX>990 && mouseY > 100){
+    image (nova2, 990, 100, 350, 170);
     
     if (mouseIsPressed) {
-      image (star, 1290, 0, 350, 170);
+      image (star, 990, 100, 350, 170);
     }
 }}
  
