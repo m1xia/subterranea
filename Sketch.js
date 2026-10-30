@@ -1,6 +1,5 @@
 let canvas;
 
-let mostrarAnimacion = false; 
 
 
 let undercity;
@@ -156,7 +155,7 @@ if(mouseX < 690 && mouseY < 740){
 }}
 
 
-	//ANIMACION
+/*	//ANIMACION
  if (mostrarAnimacion) {
     image(tren, 380, 0, 190, 304);
     
@@ -175,9 +174,9 @@ function mousePressed() {
   if (mouseX > 380 && mouseX < 570 && mouseY > 0 && mouseY < 304) {
     mostrarAnimacion = true; 
   }
-}
+}*/
 
-/*image (poster1, 380,0, 190, 304);
+image (poster1, 380,0, 190, 304);
 rect (380,0, 190, 304);
 if(mouseX < 570 && mouseY < 304){
   if (mouseX>380 && mouseY > 0){
@@ -191,7 +190,7 @@ image (poster1, 380,0, 190, 304);
       text("BTBT", 390, 290);
     }     
 }}
-*/
+
 
 image (undercity, 650, 160, 480, 300);
 	rect (650, 160, 480, 300);
