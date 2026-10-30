@@ -73,25 +73,25 @@ eye = loadImage ("imagenes/eye.png");
 textFont('Rubik Glitch');
 
 
-a = createA('https://www.instagram.com/mile.xia_/', 'MILEXIA');
-a.position(1400, 450);
+a = createA('https://www.instagram.com/fr.xia_/', 'MILEXIA');
+a.position(700, 450);
 a.style('font-size', '22px');
 a.style('color', 'red');
 
 slider = createSlider(50, 300, 100);
-slider.position(1100, 600);
+slider.position(800, 600);
 slider.style('width', '300px');
 
 
 txtInput = createInput('????');
-txtInput. position(1300, 640);
+txtInput. position(550, 640);
 txtInput.size(200);
 txtInput.style('color', 'red');
 
 
 
 button = createButton('click me');
-button.position(1470, 300);
+button.position(770, 300);
 button.mousePressed(cambiarColor);
 
 r= color (255, 0, 0);
