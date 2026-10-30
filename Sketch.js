@@ -1,7 +1,6 @@
 let canvas;
 
 
-
 let undercity;
 let poster1;
 let poster2;
@@ -71,7 +70,6 @@ cat = loadImage ("imagenes/cat.jpg")
 shine = loadImage ("imagenes/shine.png");
 eye = loadImage ("imagenes/eye.png");
 
-tren.play();
 
 textFont('Rubik Glitch');
 
