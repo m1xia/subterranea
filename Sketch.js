@@ -1,5 +1,7 @@
 let canvas;
 
+let mostrarAnimacion = false; 
+
 
 let undercity;
 let poster1;
@@ -52,7 +54,7 @@ function setup(){
  poster1 = loadImage ("imagenes/poster1.png");
  poster2 = loadImage ("imagenes/poster2.png");
  fondo = loadImage ("imagenes/fondo.jpg");
- tren = loadImage ("https://giphy.com/embed/fW6yzJe1ZM5bi");
+ tren = loadImage ("imagenes/tren.gif");
  hueso = loadImage ("imagenes/hueso.png");
  auto = loadImage ("imagenes/auto.gif");
  star = loadImage ("imagenes/star.gif");
@@ -69,6 +71,8 @@ night = loadImage ("imagenes/night.jpg");
 cat = loadImage ("imagenes/cat.jpg")
 shine = loadImage ("imagenes/shine.png");
 eye = loadImage ("imagenes/eye.png");
+
+tren.play();
 
 textFont('Rubik Glitch');
 
@@ -152,7 +156,22 @@ if(mouseX < 690 && mouseY < 740){
 }}
 
 
-image (poster1, 380,0, 190, 304);
+	//ANIMACION
+ if (mostrarAnimacion) {
+    image(tren, 380, 0, 190, 304);
+    
+    fill(255, 0, 0);
+    textSize(15);
+    text("BTBT", 390, 250);
+    text("BTBT", 390, 270);
+    text("BTBT", 390, 290);
+  } else {
+    image(poster1, 380, 0, 190, 304);
+	 rect (380,0, 190, 304);
+  }
+}
+
+/*image (poster1, 380,0, 190, 304);
 rect (380,0, 190, 304);
 if(mouseX < 570 && mouseY < 304){
   if (mouseX>380 && mouseY > 0){
@@ -166,7 +185,7 @@ image (poster1, 380,0, 190, 304);
       text("BTBT", 390, 290);
     }     
 }}
-
+*/
 
 image (undercity, 650, 160, 480, 300);
 	rect (650, 160, 480, 300);
